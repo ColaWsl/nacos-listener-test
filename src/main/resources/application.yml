@@ -1,0 +1,11 @@
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    type: yaml
+    data-id: nacos-listener-test.yml
+    namespace: 0359e1a8-caf4-4fd8-95de-7a188dd50797
+    auto-refresh: true
+    group: test
+    bootstrap:
+      enable: true
+      log-enable: true
